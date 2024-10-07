@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="num">
+          <div id="text"></div>
+          <div class="time">
+            <div class="hours flex-col">
+              <span>Hours</span>
+              <p class="bold" id="hour">00</p>
+            </div>
+            <div class="minutes flex-col">
+              <span>Minutes</span>
+              <p class="bold" id="minute">00</p>
+            </div>
+            <div class="seconds flex-col">
+              <span>Seconds</span>
+              <p class="bold" id="second">00</p>
+            </div>
+            <div class="count flex-col">
+              <span>Milliseconds</span>
+              <p class="bold" id="count">00</p>
+            </div>
+          </div>
+        </div>
+        <div class="instructions">
+          <div class="elements">
+            <div class="start">
+              <button id="strt-btn" class="rounded" type="button">Start</button>
+            </div>
+            <div class="reset">
+              <button id="reset-btn" class="rounded" type="button">
+                Reset
+              </button>
+            </div>
+            <div class="stop">
+              <button id="split-btn" class="rounded" type="button">
+                Split
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="split-section">
+        <p id="split-p">Splits Timing</p>
+        <div class="line"></div>
+
+        <div class="splits-div"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="stopwatch.js"></script>
+</html>
